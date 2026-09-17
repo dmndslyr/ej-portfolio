@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Edriene Jay Cabanela | Computer Engineer",
   description:
     "Portfolio of Edriene Jay Cabanela — Computer Engineer specializing in software, systems, cloud, and connected technology.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
