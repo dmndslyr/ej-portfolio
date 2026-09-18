@@ -6,11 +6,11 @@ export const projects = [
     category: "CAPSTONE",
     description:
       "An Android augmented-reality indoor navigation system combining marker-assisted navigation, contextual information, and a web-based administration system.",
-    technologies: ["KOTLIN", "ARCORE", "DJANGO", "MYSQL"],
+    technologies: ["KOTLIN", "ANDROID", "ARCORE", "DJANGO", "MYSQL", "RASPBERRY PI 5"],
     featured: true,
 
     showStudy: true,
-    studyHref: "#",
+    studyHref: "https://ariseapp.online",
   },
 
   {
@@ -20,7 +20,7 @@ export const projects = [
     category: "WEB APPLICATION",
     description:
       "An online news platform built with a React frontend and Django REST backend, supporting content publishing, media management, search, and deployment on AWS EC2.",
-    technologies: ["DJANGO", "REACT", "AWS EC2", "REST API"],
+    technologies: ["DJANGO", "DJANGO REST FRAMEWORK", "REACT", "AWS EC2", "REST API"],
     featured: true,
 
     showStudy: false,

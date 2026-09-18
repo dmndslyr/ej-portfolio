@@ -44,46 +44,46 @@ const projectMedia: Record<
     alt: string;
   }[]
 > = {
-  ARISE: [
-    {
-      src: "/images/projects/arise/01.jpg",
-      alt: "ARISE application",
-    },
-    {
-      src: "/images/projects/arise/02.jpg",
-      alt: "ARISE navigation interface",
-    },
-    {
-      src: "/images/projects/arise/03.jpg",
-      alt: "ARISE augmented reality navigation",
-    },
-    {
-      src: "/images/projects/arise/04.jpg",
-      alt: "ARISE system interface",
-    },
-  ],
+  // ARISE: [
+  //   {
+  //     src: "/images/projects/arise/01.jpg",
+  //     alt: "ARISE application",
+  //   },
+  //   {
+  //     src: "/images/projects/arise/02.jpg",
+  //     alt: "ARISE navigation interface",
+  //   },
+  //   {
+  //     src: "/images/projects/arise/03.jpg",
+  //     alt: "ARISE augmented reality navigation",
+  //   },
+  //   {
+  //     src: "/images/projects/arise/04.jpg",
+  //     alt: "ARISE system interface",
+  //   },
+  // ],
 
-  "The Valley Digital": [
-    {
-      src: "/images/projects/valley/01.jpg",
-      alt: "The Valley Digital homepage",
-    },
-    {
-      src: "/images/projects/valley/02.jpg",
-      alt: "The Valley Digital article page",
-    },
-  ],
+  // "The Valley Digital": [
+  //   {
+  //     src: "/images/projects/valley/01.jpg",
+  //     alt: "The Valley Digital homepage",
+  //   },
+  //   {
+  //     src: "/images/projects/valley/02.jpg",
+  //     alt: "The Valley Digital article page",
+  //   },
+  // ],
 
-  "IoT Hand-Gesture Robotic Arm": [
-    {
-      src: "/images/projects/robotic-arm/01.jpg",
-      alt: "IoT hand-gesture controlled robotic arm",
-    },
-    {
-      src: "/images/projects/robotic-arm/02.jpg",
-      alt: "Robotic arm control interface",
-    },
-  ],
+  // "IoT Hand-Gesture Robotic Arm": [
+  //   {
+  //     src: "/images/projects/robotic-arm/01.jpg",
+  //     alt: "IoT hand-gesture controlled robotic arm",
+  //   },
+  //   {
+  //     src: "/images/projects/robotic-arm/02.jpg",
+  //     alt: "Robotic arm control interface",
+  //   },
+  // ],
 };
 
 /* ================================================================
@@ -189,7 +189,7 @@ export default function SelectedWork() {
         ======================================================== */}
 
         <div className="mt-8 space-y-4 sm:mt-10 sm:space-y-5">
-          {projects.slice(0, 4).map((project, index) => (
+          {projects.map((project, index) => (
             <ProjectCard
               key={`${project.title}-${index}`}
               project={project}

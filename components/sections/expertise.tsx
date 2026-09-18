@@ -6,17 +6,17 @@ import { Code2, Globe2, Server, Cpu } from "lucide-react";
 const skills = [
   {
     label: "SOFTWARE",
-    value: "Python · Java · Kotlin · PHP · C++",
+    value: "Python · Java · Kotlin · PHP · C++ · JavaScript · TypeScript",
     icon: Code2,
   },
   {
     label: "WEB",
-    value: "Laravel · Django · Flask · React · Tailwind CSS",
+    value: "Laravel · Django · Next.js · Flask · React · Tailwind CSS",
     icon: Globe2,
   },
   {
     label: "SYSTEMS & CLOUD",
-    value: "Linux · Windows · AWS EC2 · Docker · NGINX",
+    value: "Linux · Windows · Android · AWS EC2 · Docker · NGINX",
     icon: Server,
   },
   {

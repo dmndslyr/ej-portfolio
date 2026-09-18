@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from "react";
 import { motion } from "motion/react";
-import { ArrowUpRight, Mail } from "lucide-react";
+import { ArrowUpRight, FileText, Mail } from "lucide-react";
 
 const contactLinks = [
   {
@@ -22,6 +22,12 @@ const contactLinks = [
     value: "linkedin.com/in/edrienejaycabanela",
     href: "https://linkedin.com/in/edrienejaycabanela",
     icon: "linkedin",
+  },
+  {
+    label: "GET CV",
+    value: "Download my Curriculum Vitae",
+    href: "/cv/Edriene_Jay_Cabanela_CV.pdf",
+    icon: "cv",
   },
 ] as const;
 
@@ -62,6 +68,10 @@ function ContactIcon({
 
   if (type === "linkedin") {
     return <LinkedinIcon />;
+  }
+
+  if (type === "cv") {
+    return <FileText size={23} strokeWidth={1.6} />;
   }
 
   return <Mail size={23} strokeWidth={1.6} />;
@@ -549,6 +559,7 @@ export default function Contact() {
                       />
                     </div>
                   </motion.a>
+                  
                 ))}
               </div>
             </div>
